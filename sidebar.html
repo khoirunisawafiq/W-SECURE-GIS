@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-left: 200px; /* Adjust based on the sidebar width */
+        }
+        .sidebar {
+            width: 210px; /* Width of the sidebar */
+            height: 100%; /* Full height */
+            position: fixed; /* Fix sidebar to the left */
+            top: 0;
+            left: 0;
+            background-color: #d1af6f; /* Light background */
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+        .sidebar .nav-link {
+            color: #000; /* Text color */
+            font-family: garamond;
+            font-size: 16px;
+        }
+        .sidebar .nav-link.active {
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+        }
+        .content {
+            margin-left: 50px; /* Adjust based on sidebar width + additional space */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar" color="white">
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">W-SECURE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="pendahuluan.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="peta.html">Map</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="daftarpustaka.html">References</a>
+            </li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- Your main content goes here -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
